@@ -1,0 +1,5 @@
+- name: ping the web server
+  hosts: web
+  task:
+  - name: print hello world 
+    msg: "hello world"
