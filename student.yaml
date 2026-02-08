@@ -1,0 +1,28 @@
+- name: "Gaddam Akhil"
+  DOB: "1999-09-02"
+  city: hyderabad
+  mobilenumber: 1234567
+  addresses:
+  - flatnumber: 102
+    street: "Akhil nagar"
+    city: hyderabad
+    type: permanent
+  - flatnumber: 102
+    street: "Akhil nagar"
+    city: hyderabad
+    type: current
+
+- name: "Gaddam Akhil"
+  DOB: "1999-09-02"
+  city: hyderabad
+  mobilenumber: 1234567
+  addresses:
+  - flatnumber: 102
+    street: "Akhil nagar"
+    city: hyderabad
+    type: permanent
+  - flatnumber: 102
+    street: "Akhil nagar"
+    city: hyderabad
+    type: current
+    

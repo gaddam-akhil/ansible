@@ -1,0 +1,50 @@
+{
+    "stundent": [
+    {
+       "firstname": "Akhil",
+       "DOB": "1990-01-09",
+
+"addresses": [
+    {
+      "type": "Permanent",
+      "flatnumber": 104,   
+      "street": "akhilaparment",     
+      "District": "karimnagar",
+      "city": "hyderabad"
+    },
+    {
+      "type": "current",
+      "flatnumber": 104,   
+      "street": "akhilaparment",     
+      "District": "karimnagar",
+      "city": "hyderabad"
+    }
+  ],
+  "skills": ["java", "devops", "cloud"]
+  }
+ ],
+ "stundent2": [
+    {
+       "firstname": "Akhil",
+       "DOB": "1990-01-09",
+
+"addresses": [
+    {
+      "type": "Permanent",
+      "flatnumber": 104,   
+      "street": "akhilaparment",     
+      "District": "karimnagar",
+      "city": "hyderabad"
+    },
+    {
+      "type": "current",
+      "flatnumber": 104,   
+      "street": "akhilaparment",     
+      "District": "karimnagar",
+      "city": "hyderabad"
+    }
+  ],
+  "skills": ["java", "devops", "cloud"]
+  }
+ ]
+}

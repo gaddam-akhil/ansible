@@ -1,0 +1,53 @@
+<Students>  
+    <student> 
+   <firstname>Akhil</firstname>
+   <DOB>1998-09-09</DOB>
+   <Email>gaddamakhil900@gmail.com</Email>
+   <RollNumber>121212</RollNumber>
+   <section> B </section>
+   <!-- <Address> 102, akhil apartments, hyderabad </Address> if you need to add any specific detail -->
+  <!-- <Address>
+     <flatnum>102</flatnum> 
+     <Street>akhil apartments</street> 
+     <city>hyderabad</city>  
+  </Address> IF YOU GIVE EXTRA DATA LIKE PERMENENT ADDs CURRENT ADDS we can add another obj in another obj -->
+  <Addresses> 
+     <PERMENENTAddress> 
+         <Hnum>1-02-2</Hnum>
+         <village>veerlapalli</village>
+         <District>karimnagar</District>      
+     </PERMENENTAddress> 
+     <CURRENTAddress>
+          <Hnum>1-02-2</Hnum>
+         <village>veerlapalli</village>
+         <District>karimnagar</District>  
+     </CURRENTAddress>
+  </Addresses>
+</student>
+
+<student> 
+   <firstname>Akhil</firstname>
+   <DOB>1998-09-09</DOB>
+   <Email>gaddamakhil900@gmail.com</Email>
+   <RollNumber>121212</RollNumber>
+   <section> B </section>
+   <!-- <Address> 102, akhil apartments, hyderabad </Address> if you need to add any specific detail -->
+  <!-- <Address>
+     <flatnum>102</flatnum> 
+     <Street>akhil apartments</street> 
+     <city>hyderabad</city>  
+  </Address> IF YOU GIVE EXTRA DATA LIKE PERMENENT ADDs CURRENT ADDS we can add another obj in another obj -->
+  <Addresses> 
+     <PERMENENTAddress> 
+         <Hnum>1-02-2</Hnum>
+         <village>veerlapalli</village>
+         <District>karimnagar</District>      
+     </PERMENENTAddress> 
+     <CURRENTAddress>
+          <Hnum>1-02-2</Hnum>
+         <village>veerlapalli</village>
+         <District>karimnagar</District>  
+     </CURRENTAddress>
+  </Addresses>
+</student>
+</Students>
