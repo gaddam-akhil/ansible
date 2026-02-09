@@ -1,24 +1,48 @@
+# - name: demo on data types
+#   hosts: local
+#   connection: local
+#   vars:
+#    PROGRAM: "devops with aws" #string
+#    DURATION: 140  # int/number
+#    IS_LIVE: true #boolean
+#    DETAILS: # map/dictionary
+#      MONTHS: 4
+#      TRAINER: "sivakumar reddy"
+#    TOPICS: #list starts with - or []
+#    - Linux
+#    - Shell
+#    - Ansible
+#   tasks:
+#   - name: print variables
+#     ansible.builtin.debug:
+#       msg:
+#         program: {{ PROGRAM }}
+#         Duration: {{ DURATION }}
+#         Is live?: {{ IS_LIVE }}
+#         Detils: {{ DETAILS }}
+#         Topics: {{ TOPICS }}
+   
+
 - name: demo on data types
   hosts: local
   connection: local
   vars:
-   PROGRAM: "devops with aws" #string
-   DURATION: 140  # int/number
-   IS_LIVE: true #boolean
-   DETAILS: # map/dictionary
-     MONTHS: 4
-     TRAINER: "sivakumar reddy"
-   TOPICS: #list starts with - or []
-   - Linux
-   - Shell
-   - Ansible
+    PROGRAM: "DevSecOps with AWS" # string
+    DURATION: 140 # int/number
+    IS_LIVE: true # bool
+    DETAILS: # map/dictionary {}
+      MONTHS: 4
+      TRAINER: "Sivakumar Reddy"
+    TOPICS: # list -/[]
+    - Linux
+    - Shell
+    - Ansible
   tasks:
   - name: print variables
     ansible.builtin.debug:
-      msg:
-         program: {{ PROGRAM }}
-         Duration: {{ DURATION }}
-         Is live?: {{ IS_LIVE }}
-         Detils: {{ DETAILS }}
-         Topics: {{ TOPICS }}
-   
+      msg: |
+        Program: {{ PROGRAM }}
+        Duration: {{ DURATION }}
+        Is Live?: {{ IS_LIVE }}
+        Details: {{ DETAILS }}
+        Topics: {{ TOPICS }}
