@@ -8,13 +8,13 @@
 
   # - name: check redhat or not
   #   ansible.builtin.debug:
-  #     msg: "yes, package manger is Redhat"
+  #     msg: "yes, package manger is RedHat"
   #   when: ansible_facts.os_family == "Redhat"
 
 
   # - name: check redhat or not
   #   ansible.builtin.debug:
-  #     msg: "yes, package manger is Redhat"
+  #     msg: "yes, package manger is RedHat"
   #   when: ansible_facts.os_family == "Debian"
 
   - name: check redhat or not
