@@ -16,3 +16,6 @@
     ansible.builtin.debug:
       msg: "hi {{ NAME }}"  
 
+      # 1.first preference is ars
+      # 2. 
+
