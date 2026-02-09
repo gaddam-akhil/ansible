@@ -5,10 +5,10 @@
   - NAME: "Ansible from Play"
   # vars_files:
   # - course.yaml
-  vars_prompt:
-  - name: NAME
-    prompt: "please enter name"
-    private: false
+  # vars_prompt:
+  # - name: NAME
+  #   prompt: "please enter name"
+  #   private: false
   tasks:
   - name: print name
     # vars:
@@ -19,4 +19,5 @@
       # 1.first preference is ars
       # 2. secound preference is task
       # 3. third preference is file
-
+      # 4. forth preference is prompt
+      # 5. 
