@@ -1,0 +1,24 @@
+- name: demo on data types
+  hosts: local
+  connection: local
+  vars:
+   PROGRAM: "devops with qws"
+   DURATION: 140
+   IS_LIVE: true
+   DETAILS:
+     MONTHS: 4
+     TRAINER: "sivakumar reddy"
+   TOPICS:
+   - Linux
+   - Shell
+   - Ansible
+  tasks:
+  - name: print variables
+    ansible.builtin.debug
+      msg:
+         program: {{ PROGRAM }}
+         Duration: {{ DURATION }}
+         Is live?: {{ IS_LIVE }}
+         Detils: {{ DETAILS }}
+         Topics: {{ TOPICS }}
+   
