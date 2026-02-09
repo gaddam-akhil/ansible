@@ -11,11 +11,11 @@
     private: false
   tasks:
   - name: print name
-    vars:
-      NAME: "Ansible from TASK"
+    # vars:
+    #   NAME: "Ansible from TASK"
     ansible.builtin.debug:
       msg: "hi {{ NAME }}"  
 
       # 1.first preference is ars
-      # 2. 
+      # 2. secound preference is task
 
