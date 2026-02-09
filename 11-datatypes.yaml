@@ -2,13 +2,13 @@
   hosts: local
   connection: local
   vars:
-   PROGRAM: "devops with qws"
-   DURATION: 140
-   IS_LIVE: true
-   DETAILS:
+   PROGRAM: "devops with aws" #string
+   DURATION: 140  # int/number
+   IS_LIVE: true #boolean
+   DETAILS: # map/dictionary
      MONTHS: 4
      TRAINER: "sivakumar reddy"
-   TOPICS:
+   TOPICS: #list starts with - or []
    - Linux
    - Shell
    - Ansible
