@@ -2,12 +2,22 @@
   hosts: local
   connection: local
   become: yes
-  tasks:
-  - name: instal packages
-    ansible.builtin.package:
-       name: "{{ item.name }}"
-       state: "{{ item.state }}"
-    loop: # lsit of maps
-    - { name: "mysql", state: "absent" } # maps
+  vars:
+    your_list_variable:
+    - { name: "mysql", state: "absent" } # maps/dictionary
     - { name: "nginx", state: "present" }
     - { name: "zip", state: "present" }
+  tasks:
+  # - name: instal packages
+  #   ansible.builtin.package:
+  #      name: "{{ item.name }}"
+  #      state: "{{ item.state }}"
+  #   loop: # lsit of maps
+  #   - { name: "mysql", state: "absent" } # maps/dictionary
+  #   - { name: "nginx", state: "present" }
+  #   - { name: "zip", state: "present" }
+
+  - name: check item values
+    ansible.builtin.debug:
+        msg: "Installing {{ item.name }} with state {{ item.state }}"
+    loop: "{{ your_list_variable }}"
