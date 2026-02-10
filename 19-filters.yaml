@@ -5,6 +5,7 @@
     topics: linux, ansible, shell, terraform
     course: "devops with aws"
     CLASS: "DEVOPS WITH AWS AND ANSIBLE"
+    myIp: 256.456.555.136
     tagsmap:
       name: ansible
       project: roboshop
@@ -56,4 +57,11 @@
 
   - name: convert to lower case
     ansible.builtin.debug:
-      msg: "{{ CLASS | lower }}"       
+      msg: "{{ CLASS | lower }}"      
+
+  - name: check Ip address
+    ansible.builtin.debug:
+       msg: "{{ myIp | ansible.utils.ipv4 }}"
+  
+
+
