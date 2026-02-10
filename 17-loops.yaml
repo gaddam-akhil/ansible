@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: instal packages
-    ansible.builtin.packages:
+    ansible.builtin.package:
        name: "{{ item }}"
        state: present
     loop:
