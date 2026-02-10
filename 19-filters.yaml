@@ -5,7 +5,7 @@
     topics: linux, ansible, shell, terraform
     course: "devops with aws"
     CLASS: "DEVOPS WITH AWS AND ANSIBLE"
-    myIp: 256.456.555.136
+    myIp: 254.45.55.136
     tagsmap:
       name: ansible
       project: roboshop
