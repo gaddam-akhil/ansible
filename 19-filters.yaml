@@ -18,4 +18,4 @@
 
   - name: convert dictioinary/map to list/items
     ansible.builtin.debug:
-       msg: "{{ tags | dict2items }}"    
+       msg: "{{ tagslist | dict2items }}"    
